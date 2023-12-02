@@ -18,12 +18,12 @@
 
         <!-- Heading -->
         <div class="sidebar-heading">
-            Dashboard 
+            Dashboard
         </div>
 
         <!-- Nav Item - Dashboard -->
         <li class="nav-item active">
-            <a class="nav-link" href="<?= base_url('') ?>">
+            <a class="nav-link" href="<?= base_url('dashboard') ?>">
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>Dashboard</span></a>
         </li>
@@ -38,11 +38,10 @@
 
         <!-- Nav Item - User List -->
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('') ?>">
+            <a class="nav-link" href="<?= base_url('produk') ?>">
                 <i class="fas fa-cubes"></i>
                 <span>Product</span></a>
         </li>
-
 
         <!-- Divider -->
         <hr class=" sidebar-divider">
@@ -54,9 +53,24 @@
 
         <!-- Nav Item - User List -->
         <li class="nav-item">
-            <a class="nav-link" href="<?= base_url('') ?>">
+            <a class="nav-link" href="<?= base_url('kategori') ?>">
                 <i class="fas fa-th-large"></i>
                 <span>Category</span></a>
+        </li>
+
+        <!-- Divider -->
+        <hr class=" sidebar-divider">
+
+        <!-- Heading -->
+        <div class="sidebar-heading">
+            Brand
+        </div>
+
+        <!-- Nav Item - User List -->
+        <li class="nav-item">
+            <a class="nav-link" href="<?= base_url('merek') ?>">
+                <i class="fab fa-bandcamp"></i> 
+                <span>Brand</span></a>
         </li>
 
         <?php if (in_groups('admin')) : ?>

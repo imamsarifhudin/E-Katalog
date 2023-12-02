@@ -9,7 +9,8 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Arora Putra Sport</title>
+    <title>Arora Putra Sport & Music</title>
+    <link rel="shortcut icon" href="<?= base_url('img/logoarora2.png') ?>">
 
     <!-- Custom fonts for this template-->
     <link href="<?= base_url(); ?>/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -22,7 +23,7 @@
 
 <body class="bg-gradient-primary">
 
-<?= $this->renderSection('content'); ?>
+    <?= $this->renderSection('content'); ?>
 
     <!-- Bootstrap core JavaScript-->
     <script src="<?= base_url(); ?>/vendor/jquery/jquery.min.js"></script>

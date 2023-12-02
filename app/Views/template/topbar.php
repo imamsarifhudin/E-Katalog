@@ -6,8 +6,9 @@
                     </button>
                     
                     <div class="sidebar-brand-icon">
-                        <img src="<?= base_url('img/logoarora3.png') ?>" alt="Logo" style="width: min(250vw, 250px)">
+                        <img src="<?= base_url('img/logoarora.png') ?>" alt="Logo" style="width: min(250vw, 250px)">
                     </div>
+                    
                     <!-- Topbar Search -->
                     <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
                         <div class="input-group">
