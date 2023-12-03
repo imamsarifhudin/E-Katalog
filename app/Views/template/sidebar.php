@@ -28,6 +28,7 @@
                 <span>Dashboard</span></a>
         </li>
 
+        <?php if (in_groups('admin')) : ?>
         <!-- Divider -->
         <hr class=" sidebar-divider">
 
@@ -73,7 +74,6 @@
                 <span>Brand</span></a>
         </li>
 
-        <?php if (in_groups('admin')) : ?>
             <!-- Divider -->
             <hr class=" sidebar-divider">
 

@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="shortcut icon" href="<?= base_url('img/logoarora2.png') ?>" >
+    <link rel="shortcut icon" href="<?= base_url('img/logoarora2.png') ?>">
     <title><?= $title; ?></title>
 
     <!-- Custom fonts for this template-->
@@ -51,7 +51,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; Your Website <?= date('Y'); ?></span>
+                        <span><?= date('Y'); ?> Copyright &copy; Arora Putra Sport Music</span> 
                     </div>
                 </div>
             </footer>

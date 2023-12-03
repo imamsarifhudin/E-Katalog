@@ -1,0 +1,121 @@
+    <nav class="p-2 navbar fixed-top" style="background-color: #1640D6;" data-bs-theme="dark" id="top_nav">
+        <div class="container-fluid text-light pt-1">
+            <div class="w-100 d-flex justify-content-between">
+                <div>
+                    <i class="bi bi-envelope-at-fill"></i>
+                    <a class="navbar-sm-brand px-1 text-light text-decoration-none"
+                        href="mailto:volkltennisid@gmail.com">volkltennisid@gmail.com</a>
+                    <i class="bi bi-telephone-fill"></i>
+                    <a class="navbar-sm-brand px-1 text-light text-decoration-none"
+                        href="tel:0877-8899-5040">0877-8899-5040</a>
+                </div>
+                <div>
+                    <a class="text-white px-1" href="https://www.facebook.com/profile.php?id=100092510078745"
+                        target="_blank" rel="sponsored">
+                        <i class="bi bi-facebook" style="font-size: 1.3rem;"></i></a>
+                    <a class="text-white px-1" href="https://www.instagram.com/volkltennis.id/" target="_blank">
+                        <i class="bi bi-instagram" style="font-size: 1.3rem;"></i></a>
+                    <a class="text-white px-1" href="whatsapp://send?text=Hello&phone=+6287788995040" target="_blank">
+                        <i class="bi bi-whatsapp" style="font-size: 1.3rem;"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pt-2 mb-3">
+            <a class="navbar-brand" href="#">
+                <img src="<?= base_url('img/logoarora.png') ?>" style="width: min(200vw, 200px)">
+            </a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-end mb-md-0" id="animasi_keren">
+                <li><a href="" class="nav-link px-4 text-white">Home</a></li>
+                <li><a href="" class="nav-link px-4 text-white">Product</a></li>
+                <li><a href="" class="nav-link px-4 text-white">Category</a></li>
+                <li><a href="" class="nav-link px-4 text-white">Brand</a></li>
+                <li><a href="" class="nav-link px-4 text-white">About Us</a></li>
+            </ul>
+            <!-- <form class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+            </form> -->
+            <form class="col-10 col-lg-auto mb-3 mb-lg-0 me-lg-3" role="search">
+                <button class="btn btn-outline-warning" type="submit"><i class="bi bi-search"></i></button>
+                <input type="search" class="form-control" placeholder="Search..." aria-label="Search">
+            </form>
+            <div class="dropdown text-end">
+                <a href="#" class="d-block link-body-emphasis text-decoration-none dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="https://github.com/mdo.png" alt="mdo" width="32" height="32" class="rounded-circle">
+                </a>
+                <ul class="dropdown-menu text-small">
+                    <li><a class="dropdown-item" href="#">New project...</a></li>
+                    <li><a class="dropdown-item" href="#">Settings</a></li>
+                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdown-item" href="#">Sign out</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav><br>
+
+      <!-- Banner -->
+      <main>
+          <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                      aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                  <div class="carousel-item active">
+                      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                          <image class="img-fluid" href="img/banner3.jpg" height="100%" width="100%" />
+                      </svg>
+                      <div class="container">
+                          <div class="carousel-caption text-start">
+                              <h1>Welcome to Volkl Tennis Indonesia</h1>
+                              <p>Tennis Volkl adalah merek tennis Jerman berdiri sejak tahun 1923 yang bersemangat dan
+                                  menyediakan perlengkapan tennis apa saja untuk pemain yang berambisi.</p>
+                              <!-- <p><a class="btn btn-lg btn-warning" href="#">Learn more</a></p> -->
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                          <rect width="100%" height="100%" />
+                          <image class="img-fluid" href="img/banner2.png" height="100%" width="100%" />
+                      </svg>
+                      <div class="container">
+                          <div class="carousel-caption">
+                              <h1>Our First Racket</h1>
+                              <p>Raket pertama volkl bernama racket <b>Zebra</b> di buat tahun 1970.</p>
+                              <p><a class="btn btn-lg btn-warning" href="#first_racket">Read more</a></p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="carousel-item">
+                      <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                          aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                          <rect width="100%" height="100%" />
+                          <image class="img-fluid" href="img/banner33.jpg" height="" width="1350" />
+                      </svg>
+                      <div class="container">
+                          <div class="carousel-caption text-end">
+                              <h1>We also have legend volkl players</h1>
+                              <p>Pemain tennis legend volkl yang menjuarai pertandingan tennis dari tahun 1998.</p>
+                              <p><a class="btn btn-lg btn-warning" href="#legend_player">Read more</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+              </button>
+          </div>
+      </main>

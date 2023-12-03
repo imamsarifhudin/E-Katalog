@@ -5,6 +5,9 @@ use CodeIgniter\Router\RouteCollection;
 /**
  * @var RouteCollection $routes
  */
+
+$routes->get('/','FrontendController::index');
+
 $routes->get('/', 'User::index');
 $routes->get('/user', 'User::index');
 
