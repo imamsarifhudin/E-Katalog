@@ -16,10 +16,9 @@
                     <img src="<?= base_url('img/' . $produk['gambar_produk'])  ?>" alt="Image" class="card-img-top">
                     <div class="card-body">
                         <h4 class="card-title"><?= $produk['nama_produk']; ?></h4>
-                        <h5 class="card-text">Brand : <?= $produk['nama_merek']; ?></h5>
-                        <h5 class="card-text">Category : <?= $produk['nama_kategori']; ?></h5>
-                        <h5 class="card-text">Price : <?= $produk['harga']; ?></h5>
-                        <h6 class="card-text">Description : <?= $produk['deskripsi']; ?></h6>
+                        <h4 class="card-text"> <?= $produk['harga']; ?></h4>
+                        <a href="<?= base_url('dashboard/' . $produk['id_produk']) ?>" class="btn btn-info">Detail Product</a>
+
                     </div>
                 </div>
             </div><br>

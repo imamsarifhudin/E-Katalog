@@ -6,7 +6,7 @@ use CodeIgniter\Router\RouteCollection;
  * @var RouteCollection $routes
  */
 
-$routes->get('/','FrontendController::index');
+// $routes->get('/','FrontendController::index');
 
 $routes->get('/', 'User::index');
 $routes->get('/user', 'User::index');
@@ -16,6 +16,8 @@ $routes->get('/admin/index', 'Admin::index', ['filter' => 'role:admin']);
 $routes->get('/admin/(:num)', 'Admin::detail/$1', ['filter' => 'role:admin']);
 
 $routes->get('dashboard', 'DashboardController::index', ['as' => 'dashboard_list']);
+$routes->get('/dashboard/(:num)', 'DashboardController::detail/$1');
+
 
 $routes->get('produk', 'ProdukController::index', ['as' => 'produk_list']);
 $routes->get('produk/create', 'ProdukController::create', ['as' => 'produk_create']);
